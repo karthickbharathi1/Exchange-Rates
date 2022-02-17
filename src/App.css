@@ -1,0 +1,39 @@
+body{
+    background-color: grey;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    min-height: 100vh;
+    text-align: center;
+
+}
+h1{
+    margin: 0;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.center{
+    border: 1px solid white;
+    width: 600px;
+    height: 400px;
+    background-color: cyan;
+    border-radius: 20px;
+
+}
+
+.input{
+    border: 1px solid #333;
+    border-radius: .3em;
+    padding: .25rem;
+    width: 9em;
+}
+select{
+    margin-left: .5rem;
+}
+.equals{
+    font-weight: bold;
+    font-size: 2rem;
+}
